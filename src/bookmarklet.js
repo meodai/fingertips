@@ -1,4 +1,5 @@
 (function(){
+
     function loadScript(url, callback){
         var head, script;
 
@@ -15,6 +16,9 @@
     }
 
     loadScript("//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js", function(){
-        loadScript("fingertips.js", function(){});
+        loadScript("https://raw.githubusercontent.com/meodai/fingertips/master/src/fingertips.js", function(){});
     });
+
 }());
+
+//convert to URL with http://userjs.up.seesaa.net/js/bookmarklet.html
