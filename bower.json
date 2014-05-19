@@ -1,0 +1,18 @@
+{
+  "name": "fingertips",
+  "version": "0.0.1",
+  "authors": [
+    "David Aerne <meodai@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.3"
+  }
+}
