@@ -14,7 +14,7 @@
         this.$dotModel = $("<div />", {
             "class": nameSpace + "-wrap",
             css: {
-                position: "absolute",
+                position: "fixed",
                 top: 0, left: 0,
                 height: "10px", width: "10px",
                 background: "rgba(255,0,0,.5)",
@@ -135,6 +135,14 @@
     $(function(){
         var fingertips = new Fingertips();
         fingertips.init();
+
+        var vcontent = $("head meta[name=viewport]").attr("content");
+        vcontent += ",minimal-ui";
+        $("head meta[name=viewport]").attr("content", vcontent);
+
     });
+
+
+
 
 }(jQuery,document,window));
