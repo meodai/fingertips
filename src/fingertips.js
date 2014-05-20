@@ -136,13 +136,9 @@
         var fingertips = new Fingertips();
         fingertips.init();
 
-        var vcontent = $("head meta[name=viewport]").attr("content");
+        /*var vcontent = $("head meta[name=viewport]").attr("content");
         vcontent += ",minimal-ui";
-        $("head meta[name=viewport]").attr("content", vcontent);
-
+        $("head meta[name=viewport]").attr("content", vcontent);*/
     });
-
-
-
 
 }(jQuery,document,window));
